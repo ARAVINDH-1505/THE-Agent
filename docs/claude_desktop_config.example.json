@@ -1,0 +1,9 @@
+﻿{
+  "mcpServers": {
+    "agent-router": {
+      "command": "C:\\Users\\Sri Aravindh\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "args": ["-m", "agent_router.mcp_server"],
+      "cwd": "D:\\VELAI THEDUM PADALAM\\THE Agent\\agent-router-mcp-python"
+    }
+  }
+}
