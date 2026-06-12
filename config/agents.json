@@ -1,0 +1,57 @@
+﻿{
+  "agents": [
+    {
+      "id": "codex",
+      "display_name": "Codex",
+      "interface": "codex_app_or_cli",
+      "strengths": ["repo editing", "terminal work", "debugging", "tests", "refactoring", "github changes"],
+      "avoid_for": ["long essay writing", "private documents without code context"],
+      "cost": 3,
+      "latency": 3,
+      "context_window": "large",
+      "can_execute_directly": false
+    },
+    {
+      "id": "claude",
+      "display_name": "Claude",
+      "interface": "desktop_or_api",
+      "strengths": ["long reasoning", "research synthesis", "document analysis", "planning", "critical review"],
+      "avoid_for": ["bulk mechanical repo edits", "simple formatting"],
+      "cost": 4,
+      "latency": 3,
+      "context_window": "very_large",
+      "can_execute_directly": false
+    },
+    {
+      "id": "cursor",
+      "display_name": "Cursor",
+      "interface": "ide",
+      "strengths": ["inline code edits", "small focused changes", "code navigation", "local IDE workflow"],
+      "avoid_for": ["large autonomous multi-file changes", "non-code research"],
+      "cost": 3,
+      "latency": 2,
+      "context_window": "medium",
+      "can_execute_directly": false
+    },
+    {
+      "id": "antigravity",
+      "display_name": "Antigravity",
+      "interface": "app",
+      "strengths": ["app prototyping", "product workflows", "multi-step build tasks", "full-stack scaffolding"],
+      "avoid_for": ["small questions", "credential handling"],
+      "cost": 4,
+      "latency": 4,
+      "context_window": "large",
+      "can_execute_directly": false
+    }
+  ],
+  "policies": {
+    "max_prompt_characters": {
+      "low": 2500,
+      "medium": 7000,
+      "high": 14000
+    },
+    "require_verification_for_high_risk": true,
+    "redact_secrets": true
+  }
+}
