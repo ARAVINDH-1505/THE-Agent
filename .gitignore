@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local runtime state
+data/*.sqlite3
+data/*.sqlite3-*
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+.env
+
+#.gitignore is refined properly
