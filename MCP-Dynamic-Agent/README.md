@@ -101,4 +101,4 @@ This folder contains sample/demo code. Check the repository root for license inf
 
 ## Contact / Contributing
 
-This is a small demo — feel free to open issues or PRs in the parent repository with improvements, bug fixes, or security updates.
+This is a small demo — feel free to open issues or PRs in the parent repository with improvements, bug fixes, or security updates. Give a try guys!!!
