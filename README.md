@@ -188,7 +188,7 @@ Recommended workflow:
 5. Run tests.
 6. Commit and push through Git.
 
-Keep GitHub authentication in GitHub CLI, Git Credential Manager, Cursor, Codex, or your normal local Git setup. Do not put GitHub tokens in this project.
+Keep GitHub authentication in GitHub CLI, Git Credential Manager, Cursor, Codex, or your normal local Git setup. Do not put GitHub tokens in this project. (keep credentials secured).
 
 ## Roadmap
 
